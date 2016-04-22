@@ -33,6 +33,15 @@ module CLA
                 x_position:      ENV['DOCUSIGN_SIGNATURE_POS_X'] || '65',
                 y_position:      ENV['DOCUSIGN_SIGNATURE_POS_Y'] || '680',
                 page_number:     Integer(ENV['DOCUSIGN_SIGNATURE_PAGE'] || 1)
+              ],
+              text_tabs: [
+                {
+                  label: 'Title',
+                  locked: 'false',
+                  x_position: '200',
+                  y_position: '200',
+                  page_number: 2
+                }
               ]
           }],
           event_notification: {
