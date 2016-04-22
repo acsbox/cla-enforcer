@@ -30,16 +30,23 @@ module CLA
               sign_here_tabs: [
                 name:            'Signature',
                 label:           'Signature',
-                x_position:      ENV['DOCUSIGN_SIGNATURE_POS_X'] || '65',
-                y_position:      ENV['DOCUSIGN_SIGNATURE_POS_Y'] || '680',
-                page_number:     Integer(ENV['DOCUSIGN_SIGNATURE_PAGE'] || 1)
+                x_position:      '250',
+                y_position:      '175',
+                page_number:     2
               ],
               text_tabs: [
                 {
+                  label: 'Name',
+                  locked: 'false',
+                  x_position: '250',
+                  y_position: '200',
+                  page_number: 2
+                },
+                {
                   label: 'Title',
                   locked: 'false',
-                  x_position: '200',
-                  y_position: '200',
+                  x_position: '250',
+                  y_position: '225',
                   page_number: 2
                 }
               ]
