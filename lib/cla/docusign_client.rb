@@ -40,16 +40,14 @@ module CLA
                   locked: 'false',
                   x_position: '220',
                   y_position: '261',
-                  page_number: 2,
-                  width: '70'
+                  page_number: 2
                 },
                 {
                   label: 'Title',
                   locked: 'false',
                   x_position: '220',
                   y_position: '278',
-                  page_number: 2,
-                  width: '70'
+                  page_number: 2
                 }
               ]
           }],
