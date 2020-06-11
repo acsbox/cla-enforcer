@@ -31,24 +31,24 @@ module CLA
                 name:            'Signature',
                 label:           'Signature',
                 x_position:      '222',
-                y_position:      '203',
-                page_number:     2
+                y_position:      '573',
+                page_number:     1
               ],
               text_tabs: [
                 {
                   label: 'Name',
                   locked: 'false',
                   x_position: '220',
-                  y_position: '261',
-                  page_number: 2,
+                  y_position: '631',
+                  page_number: 1,
                   required: true
                 },
                 {
                   label: 'Title',
                   locked: 'false',
                   x_position: '220',
-                  y_position: '278',
-                  page_number: 2,
+                  y_position: '648',
+                  page_number: 1,
                   required: true
                 }
               ]
